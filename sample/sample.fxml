@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2e3348;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="login_field" layoutY="97.0" prefHeight="26.0" prefWidth="188.0" promptText="Login" />
+      <Button fx:id="authSignInButton" layoutY="91.0" mnemonicParsing="false" text="Enter" />
+      <PasswordField fx:id="password_field" layoutY="161.0" prefHeight="26.0" prefWidth="188.0" promptText="Password" />
+      <Label layoutY="110.0" prefHeight="35.0" prefWidth="117.0" text="SingUP">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Label>
+      <AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label alignment="CENTER" layoutX="470.0" layoutY="319.0" prefHeight="74.0" prefWidth="230.0" text="Tetris" textFill="RED">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="400.0" fitWidth="700.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../tetris-ss1.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="LoginSignUpButton" layoutX="29.0" layoutY="30.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="140.0" style="-fx-border-color: #0000;" text="Play">
+               <font>
+                  <Font name="Calibri Bold" size="25.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
